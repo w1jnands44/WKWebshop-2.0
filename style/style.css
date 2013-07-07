@@ -1,0 +1,32 @@
+
+/* Start of Primairy structure of the website.*/
+
+#prime_holder
+{
+	width:960px;
+	margin: 0 auto;
+	background-color:lightgrey;
+}
+
+#header
+{
+	width:960px;
+	background-color:lightred;
+	height:120px;
+}
+
+#content
+{
+	width:960px;
+	background-color:lightgreen;
+	height:600px;
+}
+
+#footer
+{
+	width:960px;
+	background-color:grey;
+	height:200px;
+}
+
+/* End */
