@@ -1,32 +1,86 @@
 
 /* Start of Primairy structure of the website.*/
 
+body
+{
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+}
+
 #prime_holder
 {
 	width:960px;
 	margin: 0 auto;
-	background-color:lightgrey;
+	/*background-color:lightgrey;*/
 }
 
 #header
 {
 	width:960px;
-	background-color:lightred;
+	background-color:white;
+	border:1px solid lightgrey;
 	height:120px;
 }
 
 #content
 {
 	width:960px;
-	background-color:lightgreen;
+	background-color:white;
+	border:1px solid lightgrey;
+	margin-top:5px;
 	height:600px;
 }
 
 #footer
 {
 	width:960px;
-	background-color:grey;
+	background-color:white;
+	border:1px solid lightgrey;
+	margin-top:5px;
 	height:200px;
+}
+
+/* End */
+
+/* Start of menu */
+
+#menu
+{
+	width:960px;
+	float:left;
+	margin-left:0px;
+	font-size: 14px;
+	font-weight:bold;
+}
+
+#header img
+{
+	float:left;
+	width:200px;
+	height:50px;
+	margin-left:35px;
+	margin-top:10px;
+}
+
+.button
+{
+	background-image:url('images/layout/menu_button.jpg');
+	color:white;
+	background: -webkit-linear-gradient(top,#575757,#323232);
+	background: -moz-linear-gradient(top,#575757,#323232);
+	background: -ms-linear-gradient(top,#575757,#323232);
+	background: -o-linear-gradient(top,#575757,#323232);
+	float:left;
+	border-right: 1px solid #575757;
+	padding:10px;
+}
+
+.button:hover
+{
+	background: -webkit-linear-gradient(top,#797979,#686868);
+	background: -moz-linear-gradient(top,#797979,#686868);
+	background: -ms-linear-gradient(top,#797979,#686868);
+	background: -o-linear-gradient(top,#797979,#686868);
 }
 
 /* End */
