@@ -9,7 +9,16 @@
 	<body>
 		<div id="prime_holder">
 			<div id="header">
-				<img src="images/layout/header/wkwebshop.png"/>
+				<img id="logo" src="images/layout/header/wkwebshop.png"/>
+				<div id="phone">
+					<img id="phoneimage" src="images/layout/header/phone.png"/>
+					<span id="phonenumber">0900-8101</span>
+					<span id="phonecosts">&euro; 0,20 p/m</span>
+				</div>
+				<form action="#" method="GET">
+					<input id="searchbar" type="text" name="search" value="Voer uw zoekopdracht of artikelnummer in"/>
+					<input id="searchbutton" type="submit" value=""/>
+				</form>
 				<div id="menu">
 					<nav>
 						<ul>
@@ -25,6 +34,9 @@
 				</div>
 			</div>
 			<div id="content">
+				<div class="content_block">
+					<h2>AANBIEDINGEN</h2>
+				</div>
 			</div>
 			<div id="footer">
 			</div>

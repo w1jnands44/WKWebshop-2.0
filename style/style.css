@@ -42,6 +42,79 @@ body
 
 /* End */
 
+/* Start of header */
+
+#header #logo
+{
+	float:left;
+	width:200px;
+	height:50px;
+	margin-left:35px;
+	margin-top:10px;
+}
+
+#phone
+{
+	width:120px;
+	height:50px;
+	float:left;
+	margin-top:10px;
+	margin-left:30px;
+}
+
+#phoneimage
+{
+	float:left;
+	width:15px;
+	height:24px;
+	margin-top:10px;
+}
+
+#phonenumber
+{
+	font-size:14pt;
+	font-weight:bold;
+	margin-top:5px;
+	float:right;
+}
+
+#phonecosts
+{
+	font-size:11pt;
+	float:right;
+}
+
+#searchbar
+{
+	float:left;
+	margin-left:30px;
+	margin-top:20px;
+	height:30px;
+	width:265px;
+	text-indent:5px;
+	border-color: lightgrey;
+    box-shadow: 0px 0px 5px lightgrey;
+}
+
+#searchbar:focus
+{
+	outline: none;
+    border-color: #3678fe;
+    box-shadow: 0px 0px 10px #3678fe;
+}
+
+#searchbutton
+{
+	width:40px;
+	height:32px;
+	margin-top:19px;
+	float:left;
+	border: none;
+    background-image:url('../images/layout/header/searchbutton.png');
+}
+
+/* End */
+
 /* Start of menu */
 
 #menu
@@ -51,15 +124,6 @@ body
 	margin-left:0px;
 	font-size: 14px;
 	font-weight:bold;
-}
-
-#header img
-{
-	float:left;
-	width:200px;
-	height:50px;
-	margin-left:35px;
-	margin-top:10px;
 }
 
 .button
