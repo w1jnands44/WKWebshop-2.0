@@ -19,17 +19,27 @@
 					<input id="searchbar" type="text" name="search" value="Voer uw zoekopdracht of artikelnummer in"/>
 					<input id="searchbutton" type="submit" value=""/>
 				</form>
+				<div id="cartlink">
+					<a href="#">
+						<div>
+							<div id="itemnrholder"><span>0</span></div>
+							<img src="images/layout/header/cart.png"/>
+						</div>
+					</a>
+				</div>
+				<div id="userlinks">
+					<a href="#" ><span>Inloggen</span></a>
+				</div>
 				<div id="menu">
 					<nav>
-						<ul>
-							<a href="/laptops"><li class="button">Laptops</li></a>
-							<a href="/desktops-randapparatuur"><li class="button">Desktops en Randapparatuur</li></a>
-							<a href="/componenten"><li class="button">Componenten</li></a>
-							<a href="/opslag"><li class="button">Opslag</li></a>
-							<a href="/tablets-e-readers"><li class="button">Tablets & E-Readers</li></a>
-							<a href="/gaming-software"><li class="button">Gaming & Software</li></a>
-							<a href="/merken"><li class="button">Merken</li></a>
-						</ul>
+						<a href="/laptops"><span class="button">Laptops</span></a>
+						<a href="/desktops-randapparatuur"><span class="button">Desktops en Randapparatuur</span></a>
+						<a href="/componenten"><span class="button">Componenten</span></a>
+						<a href="/opslag"><span class="button">Opslag</span></a>
+						<a href="/tablets-e-readers"><span class="button">Tablets & E-Readers</span></a>
+						<a href="/opisop"><span class="button_special">OP=OP!</span></a>
+						<a href="/gaming-software"><span class="button">Gaming & Software</span></a>
+						<a href="/merken"><span class="button">Merken</span></a>
 					</nav>
 				</div>
 			</div>
